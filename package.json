@@ -1,19 +1,28 @@
 {
-  "name": "desafio_guiado_16_servidores_welcome_world",
+  "name": "clase",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node index.js || echo 'Error: No se puede iniciar el servidor con node, asegúrate de que index.js existe.'",
-    "server-watch": "node --watch index.js || echo 'Error: No se puede iniciar el servidor con watch node, asegúrate de que index.js existe.'",
-    "server-nodemon": "nodemon index.js || echo 'Error: No se puede iniciar el servidor con nodemon, asegúrate de que index.js existe.'",
-    "start": "nodemon --watch index.js || echo 'Error: No se puede iniciar el servidor con watch nodemon, asegúrate de que index.js existe.'"
+    "i": "nodemon index.js",
+    "c": "nodemon chalk.js",
+    "u": "nodemon uuid.js",
+    "m": "nodemon moment.js",
+    "l": "nodemon lodash.js",
+    "a": "nodemon axios.js"
   },
   "keywords": [],
   "author": "jonathan viera",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.1"
+    "axios": "^1.6.8",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.4",
+    "express": "^4.19.1",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
