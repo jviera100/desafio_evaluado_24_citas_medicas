@@ -47,7 +47,7 @@ console.log(chalk.underline.bgBlueBright.bold.italic(JSON.stringify('diferencia 
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 const resultadoParImpar = _.partition(num, n => n % 2)
-console.log(chalk.underline.bgBlackBright.bold.italic(JSON.stringify('pares e impares con lodash', resultadoParImpar)))
+console.log(chalk.underline.bgBlackBright.blue.bold.italic(JSON.stringify('pares e impares con lodash', resultadoParImpar)))
 
 //separar de un array los numero pares e impares sin lodash
 
