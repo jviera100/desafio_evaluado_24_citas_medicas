@@ -33,7 +33,7 @@ async function registerUsersFromAPI(numUsers) {
     }
 }
 // Llamar a la función para registrar usuarios desde la API Random User
-registerUsersFromAPI(10); // Registrar 10 usuarios aleatorios
+registerUsersFromAPI(5); // Registrar 5 usuarios aleatorios
 //-------------------------------------------------------------------------
 // Middleware para imprimir lista de usuarios en la consola con Chalk
 function logUsers(req, res, next) { 
